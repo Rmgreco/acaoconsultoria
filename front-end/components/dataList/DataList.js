@@ -1,6 +1,9 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import UserCard from "./userCard/UserCard";
+import UserCard from "../userCard/UserCard";
+import { CardList } from "./DataListStyles";
+
+
 
 const DataList = () => {
   const [data, setData] = useState([]);
@@ -26,11 +29,11 @@ const DataList = () => {
   return (
     <div>
       <h1>Random Data Viewer</h1>
-      <ul>
+      <CardList>
         {data.map((user, index) => (
-          <UserCard key={user.id} user={user} />
+          <UserCard key={index} user={user} />
         ))}
-      </ul>
+      </CardList>
     </div>
   );
 };

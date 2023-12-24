@@ -76,6 +76,7 @@ body {
 }
 
 body {
+  margin: 50px;
   color: rgb(var(--foreground-rgb));
 }
 
