@@ -10,6 +10,9 @@ Entre na pasta de back-end com ```cd back-end``` e execute os comando
 Entre na pasta de front-end com ```cd front-end``` e execute os comando
 ```npm i```e ```npm run dev``` para ver a tela em execução. Acesse em http://localhost:3000.
 
+Para rodar o projeto via Docker, primeiro certifique-se de ter Docker instalado e execute o comando:
+```docker-compose up --build```
+
 
 
 
