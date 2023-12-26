@@ -8,8 +8,6 @@ import Button from "../button/Button";
 
 const UserCard = ({ user }) => {
 
-  // const [seeMore, setSeeMore] = useState(false);
-
   const determineColor = (status) => {
     switch (status) {
       case 'Active':
@@ -57,11 +55,7 @@ const UserCard = ({ user }) => {
         
 
       </InfoContainer>
-      {/* <ButtonContainer>
-        <Button border="none" onClick={() => setSeeMore(!seeMore)}>
-          {seeMore ? "Ver menos" : "Ver mais"}
-        </Button>
-      </ButtonContainer> */}
+
     </CardContainer>
   );
 };
